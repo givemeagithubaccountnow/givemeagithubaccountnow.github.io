@@ -1,0 +1,187 @@
+<p style=""></p>
+<style></style>
+<link href="style.css" rel="stylesheet'"/>
+
+
+<body>
+  <section>
+	<p>this is a paragraph</p>
+	<span>this is an inline span</span>
+  </section>
+</body>
+<section> is a child of <body>
+<body> is a parent of <section>
+<section> is parent of </p>
+<body> is the parent of </p>
+<p> and </spam> are siblings
+
+#to tell css value is id
+
+
+
+{
+	font-family: Arial, Helvetica, Sans-serif;
+	font-family: 16px;
+}
+.text-bold{ font-weight: bold; }/*700 = bold*/
+.text-unbold{ font-weight: normal; }/*400 = normal*/
+.text-lighter{ font-weight: lighter; }/*100 = lighter*/
+
+
+.text-italic { font-style: italic; }
+.text-unitalic { font-style: normal; }
+
+.text-underline {text-decoration: underline;}
+.text-overline {text-decoration: overline;}
+.text-linethrough {text-decoration: linethrough;}
+.text-noline {text-decoration: none;}
+
+.text-monospace{font-family: 'Courier New',Courier,monospace; }
+.text-serif{font-family:'Times New Roman', Times, serif;}
+.text-sans{font-family: Arial,Helvectica,sana-serif
+
+
+fs-1{ font-size; 200%; }
+fs-2{ font-size; 150%; }
+fs-3{ font-size; 125%; }
+fs-4{ font-size; 100%; }
+fs-5{ font-size; 90%; }
+fs-6{ font-size; 80%; }
+
+
+.tx-left{ text-align; left; }
+.tx-right{ text-align; right;}
+.tx-ctr{ text-align; center;}
+.tx-justify{ text-align; justify;}
+
+
+.tx-primary{ color: rgb(0, 0, 225): }(blue)
+.tx-secondary{ color: rgb(128, 128, 128): }(grey)
+.tx-danger{ color: rgb(225, 0, 0): }(red)
+.tx-warning{ color: rgb(255, 192, 0): }(yello)
+.tx-success{ color: rgb(0,192,0): }(green)
+.tx-info{ color: rgb(0, 128, 128): }*(cyan)
+
+.container
+.container-sm 
+.container-md
+.container-lg 
+.container-xl {
+.container-xxl 
+.container-fluid { margin: 0 auto; width: 100%}
+
+
+
+
+
+@media (min-width: 576px{
+  .container
+  .container {width: 540px}
+}
+@media (min-width: 768px{
+  .container
+  .container-sm
+  .container {width: 720px}
+}
+@media (min-width: 992px{
+  .container
+  .container-sm
+  .container-md
+  .container {width: 960px}
+}
+@media (min-width: 1280px{
+  .container
+  .container-sm
+  .container-md
+  .conatiner-lg
+  .container {width: 1200px}
+}
+@media (min-width: 1536px{
+  .container
+  .container-sm
+  .container-md
+  .conatiner-lg
+  .congtainer-xl
+  .container {width: 1440px}
+}
+
+.d-inline { display: inline; }
+.d-block{display: block; }
+.d-flex{ display: flex;}
+.d-{ display: none;}
+
+@media (min-width:576px) {
+  .d-inline { display: inline; }
+  .d -block{display: block; }
+  .d-sm-inlineblock ( display: inline;)
+  .d-flex{ display: flex;}
+  .d-{ display: none;}
+}
+@media (min-width:768px) {
+  .d-inline { display: inline; }
+  .d -block{display: block; }
+  .d-sm-inlineblock ( display: inline;)
+  .d-flex{ display: flex;}
+  .d-{ display: none;}
+}
+@media (min-width:992px) {
+  .d-inline { display: inline; }
+  .d -block{display: block; }
+  .d-sm-inlineblock ( display: inline;)
+  .d-flex{ display: flex;}
+  .d-{ display: none;}
+}
+@media (min-width:1280px) {
+  .d-inline { display: inline; }
+  .d -block{display: block; }
+  .d-sm-inlineblock ( display: inline;)
+  .d-flex{ display: flex;}
+  .d-{ display: none;}
+}
+@media (min-width:1536px) {
+  .d-inline { display: inline; }
+  .d -block{display: block; }
+  .d-sm-inlineblock ( display: inline;)
+  .d-flex{ display: flex;}
+  .d-{ display: none;}
+}
+
+.w-0 ( width: 0%)
+.w-25 ( width: 25%)
+.w-50 ( width: 50%)
+.w-75 ( width: 75%)
+.w-100 ( width: 100%)
+
+
+
+.border-0 { border-width: none;}
+.border-1 { border-width: 1px;}
+.border-solid { border-style: solid;}
+.border-dash { border-style: dashed;}
+.border-dotted { border-style: dotted;}
+.border-primary { border-color: rgb(0,0,255);}
+.border-secondary { border-color: rgb(128,128,128);}
+.border-succes { border-color: rgb(0,192,0);}
+.border-warning { border-color: rgb(255,192,0);}
+.border-danger { border-color: rgb(255,0,0);} 
+
+.table-border tr>*{ border:1px solid rgb(0,0,0)}
+
+.btn { 
+  padding-right:1em;
+  padding-left:1em;
+  border-radius: 5px;
+  background-color: rgb(0,0,255)
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: rgb(0,0,216);
+}
+.btn-outline{
+  background-color initial;
+  border: 1px solid rgb(0,0,216)
+}
+.btn-outline:hover{
+  background-color: initial;
+  colorrgb(255,255,255);
+}
